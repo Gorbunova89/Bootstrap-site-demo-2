@@ -1,0 +1,17 @@
+
+.icon-ok:before { content: '\e800'; } /* '' */
+.icon-plus:before { content: '\e801'; } /* '' */
+.icon-call:before { content: '\e802'; } /* '' */
+.icon-ie:before { content: '\e803'; } /* '' */
+.icon-star:before { content: '\e804'; } /* '' */
+.icon-forward:before { content: '\e805'; } /* '' */
+.icon-fire-station:before { content: '\e817'; } /* '' */
+.icon-isight:before { content: '\f039'; } /* '' */
+.icon-movie:before { content: '\f040'; } /* '' */
+.icon-phone-squared:before { content: '\f098'; } /* '' */
+.icon-vkontakte:before { content: '\f189'; } /* '' */
+.icon-paper-plane:before { content: '\f1d8'; } /* '' */
+.icon-share:before { content: '\f1e0'; } /* '' */
+.icon-copyright:before { content: '\f1f9'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-odnoklassniki:before { content: '\f263'; } /* '' */
