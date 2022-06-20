@@ -20,7 +20,7 @@
                     <h1 class="text-center text-white">
                         Видео курс по вёрстке для начинающих HTML & CSS
                     </h1>
-                    <div class="itd-play">
+                    <div class="itd-play" data-bs-toggle="modal" data-bs-target="#myModal">
                         <div class="itd-triangle"></div>
                     </div>
                     <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Заказать</a>
@@ -34,6 +34,24 @@
     <footer id="footer">
 
     </footer>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Трейлер видео курса по HTML и CSS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed//41tdjZWeCH0' frameborder='0' allowfullscreen></iframe></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
