@@ -76,6 +76,36 @@ header, footer {
          height: 100%; 
         }
 
+/* О курсе */
+.about {
+    background-color: #eee;
+}
+
+/* размер  и цвет иконок */
+.about i {
+    font-size: 25px;
+    color: var(--color2);
+}
+
+.itd-circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    /* выстраиваем иконки по центру в круге */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
         /* Цвет */
         .color1 {
             color: var(--color1);
