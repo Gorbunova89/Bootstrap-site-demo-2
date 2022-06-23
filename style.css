@@ -77,8 +77,8 @@ header, footer {
         }
 
 /* О курсе */
-.about, .shedule, .learning {
-    background-color: #eee;
+.about, .shedule, .author {
+    background-color: rgba(214, 213, 213, 0.534);
 }
 
 /* размер  и цвет иконок */
@@ -126,6 +126,14 @@ header, footer {
     border: 3px solid var(--color1);
 }
 
+.author {
+    padding-bottom: 0;
+}
+
+.itd_img {
+    min-width: 260px;
+
+}
         /* Цвет */
         .color1 {
             color: var(--color1);
