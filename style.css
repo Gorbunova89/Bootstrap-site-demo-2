@@ -134,6 +134,11 @@ header, footer {
     min-width: 260px;
 
 }
+/* чтобы был круг !important */
+.rounded {
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
         /* Цвет */
         .color1 {
             color: var(--color1);
