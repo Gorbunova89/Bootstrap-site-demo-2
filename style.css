@@ -3,7 +3,7 @@
     --color2: #52339a;
 }
 
-header, footer, section {
+section {
     padding: 100px 0;
 }
 
@@ -133,6 +133,10 @@ header, footer {
 .itd_img {
     min-width: 260px;
 
+}
+
+footer {
+    padding: 30px 0;
 }
 /* чтобы был круг !important */
 .rounded {
