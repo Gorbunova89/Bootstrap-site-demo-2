@@ -1,6 +1,7 @@
 :root {
     --color1: #05b1b1;
     --color2: #52339a;
+    --color3: #de651d
 }
 
 section {
@@ -53,7 +54,7 @@ header, footer {
     margin: 0 auto;
     padding: 8px 30px;
     color: var(--bs-white);
-    background-color: var(--color2);
+    background-color: var(--color3);
 }
 
 .btn-itd:hover {
@@ -84,7 +85,7 @@ header, footer {
 /* размер  и цвет иконок */
 .about i {
     font-size: 25px;
-    color: var(--color2);
+    color: var(--color3);
 }
 
 .itd-circle {
@@ -102,7 +103,7 @@ header, footer {
 .line {
     width: 100px;
     height: 3px;
-    background-color: var(--color1);
+    background-color: var(--color3);
     margin: 15px auto 30px;
 }
 
@@ -137,6 +138,11 @@ header, footer {
 
 footer {
     padding: 30px 0;
+}
+
+.btn-footer {
+    border-radius: 50%;
+    color: var(--color1)
 }
 /* чтобы был круг !important */
 .rounded {
